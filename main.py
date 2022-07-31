@@ -64,8 +64,8 @@ voice_call_count_object = VoiceCallStats(VOICE_CALL_COUNT_FEATURES, GENERAL_FEAT
 # # Plot the mean count of use during off-peak times
 # voice_call_count_object.peak_offpeak_calls(telekom_data, [9], [1, 6])
 
-# Plot the mean count of failed voice calls (Dropped, Blocked, Unanswered, Attempted)
-voice_call_count_object.incomplete_voice_calls(telekom_data, [0, 1, 2, 3], [3])
+# # Plot the mean count of failed voice calls (Dropped, Blocked, Unanswered, Attempted)
+# voice_call_count_object.incomplete_voice_calls(telekom_data, [0, 1, 2, 3], [3])
 
 """
     Plots creation for 'minutes of use of Voice Calls' related statistics 

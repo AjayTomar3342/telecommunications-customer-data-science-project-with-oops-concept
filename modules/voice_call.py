@@ -65,7 +65,7 @@ class VoiceCallStats():
         inbound_feature_dict = {'drop_vce_Mean': ' dropped',
                                 'blck_vce_Mean': ' blocked',
                                 'unan_vce_Mean': ' unanswered',
-                                'plcd_vce_Mean': 'attempted',
+                                'plcd_vce_Mean': ' attempted',
                                 'asl_flag': '(Account spending limit)'}
         # Iterate through primary features submitted by user. Primary feature here being related to incoming voice calls
         for primary_feature in primary_features:
