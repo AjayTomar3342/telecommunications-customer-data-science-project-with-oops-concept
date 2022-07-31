@@ -122,48 +122,11 @@ For now, only visual data analytical results are present as in the upcoming upda
 
 ### Visual Results: 
 
-Cleaned Data is analyzed on the following parameters: 
+Below mentioned are some results from the project: 
 
-1. Movie title proportion as per Starting Character.
-2. Decade Wise Movie Count.
-3. Most successful Primary Actor with at least 30 movies. 
-4. Most successful Supporting Actor with at least 15 movies.
-5. Most successful Directors with at least 20 movies.
-6. Most successful Secondary Supporting Actor with at least 10 movies.
-7. Movie proportion according to different genres.
-8. User votes by consecutive years in the last century.
-9. Average runtime of movies year wise in the last century.
-10. Year Wise count of movies. 
-11. Genre Popularity over the last century.
+<img src="results/Voice_Calls_Dropped.png">
 
-All these analysis are done using both Python and Power BI. Some of the visuals are shown below: 
-
-<img src="Results/Visual_Result_1.PNG"> 
-<img src="Results/Visual_Result_2.PNG"> 
-<img src="Results/Visual_Result_3.PNG"> 
-
-Above visuals are taken from Power BI Visualization tool which provides better clarity when compared to Python's Matplotlib library.
-
-### Regression Results:
-
-Metric Scores for Models | Multiple Linear Regression | Lasso Regression | K-Nearest Neighbor | Random Forest Regression
----                      | --- | --- | --- | ---
-R2 Score                 | 44.7 | 45.3 | 43.4 | 69.6
-Mean Squared Error	 | 60 | 59.3 | 61.4 | 32.9
-Model Score 		 | 44.2 | 44.7 | 52.7 | 95.7
-
-These scores are calculated on the basis of usage of Python's scikit-learn library. 
-
-To explain the Metrics and their relevance here, the metrics are explained below:
-
-a.) R2 Score/Coefficient of Determination:  Means the % of variation of dependent variable which can be explained by independent variable. More the merrier. 
-
-b.) Mean Squared Error(MSE): MSE measures the average of error squares i.e the average squared difference between the estimated values and true value. Less the better. 
-
-c.) Model Score: Comparing the model predicted values to the actual values which we got by test data. More the number of matching values, the better
-
-  **NOTE:** 
-Please note that these figures and visuals have been taken on 27/8/2021. These may differ from the ones you get once you run this project again as data is scraped again and the whole procedure provides similar yet different results.  
+This plot shows proportion of users count who have witnessed dropped voice calls. Account Spending Limit adds another layer to this plot. We can clearly see that users having account spending limit witnessed more dropped calls. To find the answer as to why this is happening, more detailed data is required. 
 
 
 
