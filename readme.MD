@@ -26,12 +26,12 @@ The necessary libraries and packages are specified in the **requirements.txt** f
   Create a local directory in your machine where you want to pull the git project and clone the project by running the below command from cmd 
   (Make sure that you are in the newly created directory first!):
   
-  	```git clone https://github.com/AjayTomar3342/IMDB_Data_Science_Project_Python```
+  	```git clone https://github.com/AjayTomar3342/telecommunications-data-science-project-with-oops-concept```
 
   * **Step 2:**
   From cmd, move into the main folder of the cloned project
   
- 	 ```cd IMDB_Data_Science_Project_Python```
+ 	 ```cd telecommunications-data-science-project-with-oops-concept```
 
   * **Step 3:**
   Execute the below commands to meet the pre-requisites to execute the code
@@ -96,32 +96,31 @@ This is a quick process to start the testing of GitHub project taken from the Of
 > **Link to Above Process Video:**
   https://www.youtube.com/watch?v=ukbvdF5wqPQ&feature=emb_title
   
+   **NOTE:** 
+This project will be regularly updated and each update will each singular/multiple modules to the project features. Each module will focus on a specific family of statistics such as Statistics for Data Calls, Statistics for Revenue earned, Statistics for Customer Care Interaction etc. 
+
   
   **NOTE:** 
-Since, the libraries used in the project are updated by the original developers regularly, some function/functions may not run as expected. This project will be regularly updated as per the updated libraries requirement, but if project does not run at any give time when you pull the project, it may be due to the library change, rather than a coding issue. This repository is last updated as per latest libraries on 27/08/2021
+Since, the libraries used in the project are updated by the original developers regularly, some function/functions may not run as expected. This project will be regularly updated as per the updated libraries requirement, but if project does not run at any give time when you pull the project, it may be due to the library change, rather than a coding issue. This repository is last updated as per latest libraries on 31/07/2022.
+
+
 
 ## Procedure followed in the Project:
 
    * **Step 1:**
-   Data Scraping using Beautiful Soup using Genre Based Movie Links of IMDB. Scraping results are appended   	into Pre-cleaned-file.csv for further processing. 
+   Source data for this project has been taken from this [Kaggle Webpage](https://www.kaggle.com/datasets/abhinav89/telecom-customer?resource=download). The dataset is large in relative terms as it consists of 100 features and 100k records of customers of a telecommunication company. The file is present with the name of Telcom_customer_churn.csv in data directory. 
    
    * **Step 2:**
-   Data Cleaning is followed then as the data scraped is pretty dirty and needs to be molded into a suitable 	form for Data Analysis. This step takes in Pre-cleaned-file.csv and produces a cleaner Python-cleaned-	    file.csv for Data Analysis. 
+   For each module, a class is created. Each class can have multiple number of objects where each object will focus on one kind of information(For e.g., Minutes of Use of Calls and Number of Calls). But these different objects will use the same methods inside the class as long as the usage of same method for multiple objects is practical and beneficial. Therefore, object-oriented approach of this project will make the code more organized and tightly-knit. The explanation of the workflow is also present in a visualized form in the file "documentation/Workflow_Image.png". The workflow is as follows:  <img src="documentation/Workflow_Image.png"> 
   
    * **Step 3:**
-   Taking in Python-cleaned-file.csv, data is analysed on basis of various parameters(mentioned in the 	        Results section below). Using matplotlib, the analysis results are analysed too. Data Visualization is 	    also done using a Visualization Tool(Power BI) which is done using IMDB_Data_Power_BI_file.pbix.
+   As a result of using the class methods, various plots will be created which can be viewed in the user's browser window. The plots are interactive and therefore, comprehension will be easier for users. 
    
-   * **Step 4:**
-   In the last step, various regression models such as Multiple Linear Regression, Lasso Regression,         	K-Nearest Neighbor and Random Forest Regression. These models are tested upon parameters like R2 Score,      Mean Squared Error and Model Score to evaluate model performance. 
-
-  **NOTE:** 
-All csv files mentioned in the above steps are present in the Data_Files folder. Power BI file is present in the Root Folder. 
-
 ## Results:
 
-Results are present in two forms: Analysis Results(Graphical) and Regression Results(Numerical). 
+For now, only visual data analytical results are present as in the upcoming updates to this project advanced statistical results will be available too.  
 
-### Analysis Results: 
+### Visual Results: 
 
 Cleaned Data is analyzed on the following parameters: 
 
