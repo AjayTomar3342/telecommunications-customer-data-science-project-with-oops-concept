@@ -129,5 +129,10 @@ Below mentioned are some results from the project:
 This plot shows proportion of users count who have witnessed dropped voice calls. Account Spending Limit adds another layer to this plot. We can clearly see that users having account spending limit witnessed more dropped calls. To find the answer as to why this is happening, more detailed data is required. 
 
 
+<img src="results/Voice_Calls_Mean_MOU_offpeak.png">
+
+This plot shows proportion of users count and and their mean minutes of use of voice calls during off-peak hours. Presence of refurbished or new cell phone adds another layer to this plot. It is implied from the plot that users with refurbished phones used more voice calls during off-peak hours.
+
+
 
 
