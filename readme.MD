@@ -108,10 +108,10 @@ Since, the libraries used in the project are updated by the original developers 
 ## Procedure followed in the Project:
 
    * **Step 1:**
-   Source data for this project has been taken from this[Kaggle Webpage](https://www.kaggle.com/datasets/abhinav89/telecom-customer?resource=download). The dataset is large in relative terms as it consists of 100 features and 100k records of customers of a telecommunication company. The file is present with the name of Telcom_customer_churn.csv in data directory. 
+   Source data for this project has been taken from this [Kaggle Webpage](https://www.kaggle.com/datasets/abhinav89/telecom-customer?resource=download). The dataset is large in relative terms as it consists of 100 features and 100k records of customers of a telecommunication company. The file is present with the name of Telcom_customer_churn.csv in data directory. 
    
    * **Step 2:**
-   For each module, a class is created. Each class can have multiple number of objects where each object will focus on one kind of information(For e.g., Minutes of Use of Calls and Number of Calls). But these different objects will use the same methods inside the class as long as the usage of same method for multiple objects is practical and beneficial. Therefore, object-oriented approach of this project will make the code more organized and tightly-knit. The explanation of the workflow is also present in a visualized form in the file <img src="documentation/Workflow_Image.PNG"> 
+   For each module, a class is created. Each class can have multiple number of objects where each object will focus on one kind of information(For e.g., Minutes of Use of Calls and Number of Calls). But these different objects will use the same methods inside the class as long as the usage of same method for multiple objects is practical and beneficial. Therefore, object-oriented approach of this project will make the code more organized and tightly-knit. The explanation of the workflow is also present in a visualized form in the file <img src="documentation/Workflow_Image.png"> 
   
    * **Step 3:**
    As a result of using the class methods, various plots will be created which can be viewed in the user's browser window. The plots are interactive and therefore, comprehension will be easier for users. 
