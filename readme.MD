@@ -1,5 +1,5 @@
 # telecommunications-data-science-project-with-oops-concept
-This project analyses a large dataset containing 100 features and 100k records of telecommunications data while using Python's Object Oriented features. Object Oriented Programming is not the go-to method for any Data Analytics or Data Science project but this project attempts to use the main features of Object Oriented Programming with common data analytical and science approaches. 
+This project(Work in Progress) analyses a large dataset containing 100 features and 100k records of telecommunications data while using Python's Object Oriented features. Object Oriented Programming is not the go-to method for any Data Analytics or Data Science project but this project attempts to use the main features of Object Oriented Programming with common data analytical and science approaches. 
 
 
 ### Requirements to run and test the project:
