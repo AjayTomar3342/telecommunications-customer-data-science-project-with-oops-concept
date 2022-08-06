@@ -1,5 +1,5 @@
-# telecommunications-data-science-project-with-oops-concept
-This project analyses a large dataset containing 100 features and 100k records of telecommunications data while using Python's Object Oriented features. Object Oriented Programming is not the go-to method for any Data Analytics or Data Science project but this project attempts to use the main features of Object Oriented Programming with common data analytical and science approaches. 
+# telecommunications-customer-data-science-project-with-oops-concept
+This project(Work in Progress) analyses a large dataset containing 100 features and 100k records of telecommunications data while using Python's Object Oriented features. Object Oriented Programming is not the go-to method for any Data Analytics or Data Science project but this project attempts to use the main features of Object Oriented Programming with common data analytical and science approaches. 
 
 
 ### Requirements to run and test the project:
@@ -26,12 +26,12 @@ The necessary libraries and packages are specified in the **requirements.txt** f
   Create a local directory in your machine where you want to pull the git project and clone the project by running the below command from cmd 
   (Make sure that you are in the newly created directory first!):
   
-  	```git clone https://github.com/AjayTomar3342/telecommunications-data-science-project-with-oops-concept```
+  	```git clone https://github.com/AjayTomar3342/telecommunications-customer-data-science-project-with-oops-concept```
 
   * **Step 2:**
   From cmd, move into the main folder of the cloned project
   
- 	 ```cd telecommunications-data-science-project-with-oops-concept```
+ 	 ```cd telecommunications-customer-data-science-project-with-oops-concept```
 
   * **Step 3:**
   Execute the below commands to meet the pre-requisites to execute the code
@@ -127,6 +127,11 @@ Below mentioned are some results from the project:
 <img src="results/Voice_Calls_Dropped.png">
 
 This plot shows proportion of users count who have witnessed dropped voice calls. Account Spending Limit adds another layer to this plot. We can clearly see that users having account spending limit witnessed more dropped calls. To find the answer as to why this is happening, more detailed data is required. 
+
+
+<img src="results/Voice_Calls_Mean_MOU_offpeak.png">
+
+This plot shows proportion of users count and and their mean minutes of use of voice calls during off-peak hours. Presence of refurbished or new cell phone adds another layer to this plot. It is implied from the plot that users with refurbished phones used more voice calls during off-peak hours.
 
 
 
