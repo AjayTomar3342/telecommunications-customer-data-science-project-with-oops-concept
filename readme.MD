@@ -97,11 +97,11 @@ This is a quick process to start the testing of GitHub project taken from the Of
   https://www.youtube.com/watch?v=ukbvdF5wqPQ&feature=emb_title
   
    **NOTE:** 
-This project will be regularly updated and each update will each singular/multiple modules to the project features. Each module will focus on a specific family of statistics such as Statistics for Data Calls, Statistics for Revenue earned, Statistics for Customer Care Interaction etc. 
+This project will be regularly updated and each update will each singular/multiple modules to the project features. Each module will focus on a specific family of statistics such as Statistics for Data Calls, Statistics for Revenue earned, Statistics for other types of calls like Customer Care Calls or roaming calls etc. 
 
   
   **NOTE:** 
-Since, the libraries used in the project are updated by the original developers regularly, some function/functions may not run as expected. This project will be regularly updated as per the updated libraries requirement, but if project does not run at any give time when you pull the project, it may be due to the library change, rather than a coding issue. This repository is last updated as per latest libraries on 31/07/2022.
+Since, the libraries used in the project are updated by the original developers regularly, some function/functions may not run as expected. This project will be regularly updated as per the updated libraries requirement, but if project does not run at any give time when you pull the project, it may be due to the library change, rather than a coding issue. This repository is last updated as per latest libraries on 13/08/2022.
 
 
 
@@ -118,7 +118,7 @@ Since, the libraries used in the project are updated by the original developers 
    
 ## Results:
 
-For now, only visual data analytical results are present as in the upcoming updates to this project advanced statistical results will be available too.  
+For now, only visual data analytical results are present.In the upcoming updates to this project advanced statistical results will be available too.  
 
 ### Visual Results: 
 
@@ -144,5 +144,10 @@ This plot shows proportion of users count who have witnessed dropped data calls.
 This plot shows proportion of users count and and their mean minutes of use of data calls during off-peak hours. Presence of refurbished or new cell phone adds another layer to this plot. It is implied from the plot that users with refurbished phones used more data calls during off-peak hours.
 
 
+<img src="results/Customer_Care_Calls.png">
 
+This plot shows the percentage of users who did Customer Care Calls(Y-axis) by the count of mean number of customer calls(X-axis) with Account Spending Limit being the secondary source of analysis. It can be implied that very few users have contacted customer care and users with a fixed account spending limit contacted more than the users with no account spending limit.
 
+<img src="results/Threeway_Calls.png">
+
+This plot shows the percentage of users who did three way calls(Y-axis) by the count of mean number of threeway calls(X-axis) with Account Spending Limit being the secondary source of analysis. It can be seen that only a few percentage of users did more than 50 threeway calls. Moreover, users with a fixed account spending limit did more threeway calls than other types of users. 
