@@ -17,6 +17,10 @@ DATA_CALL_MINUTE_FEATURES = ['mou_cdat_Mean', 'mou_pead_Mean', 'mou_opkv_Mean']
 DATA_CALL_COUNT_FEATURES = ['drop_dat_Mean', 'blck_dat_Mean', 'unan_dat_Mean', 'plcd_dat_Mean', 'comp_dat_Mean',
                               'peak_dat_Mean', 'mou_opkv_Mean']
 
+# These features will get specific analytical information about calls sent to locations like customer care or threeway
+OTHER_CALL_FEATURES = ['da_Mean', 'roam_Mean', 'custcare_Mean', 'threeway_Mean', 'drop_blk_Mean',
+                       'attempt_Mean', 'callfwdv_Mean', 'callwait_Mean']
+
 
 # These features when coupled with other specific features like VOICE_CALL_FEATURES add more layers to the analysis
 # results such as adding area as second level analysis feature for total voice call revenue generated from customers

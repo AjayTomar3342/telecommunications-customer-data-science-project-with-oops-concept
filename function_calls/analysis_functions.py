@@ -1,7 +1,8 @@
 from modules.analysis_modules.voice_call import VoiceCallStats
 from modules.analysis_modules.data_call import DataCallStats
+from modules.analysis_modules.other_calls import OtherCalls
 from modules.feature_families_modules.feature_families import VOICE_CALL_MINUTE_FEATURES, VOICE_CALL_COUNT_FEATURES,\
-     DATA_CALL_MINUTE_FEATURES, DATA_CALL_COUNT_FEATURES, GENERAL_FEATURES
+     DATA_CALL_MINUTE_FEATURES, DATA_CALL_COUNT_FEATURES, OTHER_CALL_FEATURES, GENERAL_FEATURES
 
 
 def voice_call_analysis(dataframe):
@@ -73,4 +74,16 @@ def data_call_analysis(dataframe):
 
     # # Plot the mean count of data calls use during peak and off-peak times
     # data_call_count_object.peak_offpeak_count_calls(dataframe, [5,6], [1, 6])
+
+
+def other_calls(dataframe):
+    """
+        Object Creation for statistics about other type of calls
+    """
+
+    # Object to analyse statistics about other type of calls than voice or data
+    other_calls_object = OtherCalls(OTHER_CALL_FEATURES, GENERAL_FEATURES)
+
+    # Plot the comparison between voice and data calls for unsuccessful  calls
+    other_calls_object.other_calls_statistics(dataframe, [0, 1, 2, 3, 4, 5, 6, 7], [3])
 

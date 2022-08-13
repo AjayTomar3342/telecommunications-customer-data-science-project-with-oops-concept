@@ -2,7 +2,7 @@ import configparser
 import pandas as pd
 
 from modules.data_cleaning.data_cleaning import data_manipulation
-from function_calls.analysis_functions import voice_call_analysis, data_call_analysis
+from function_calls.analysis_functions import voice_call_analysis, data_call_analysis, other_calls
 
 """
     Setting up the data sources
@@ -23,4 +23,7 @@ voice_call_analysis(telekom_data)
 
 # Plot analysis results for data calls
 data_call_analysis(telekom_data)
+
+# Plot analysis results for calls which are sent to rare locations like customer care and threeway
+other_calls(telekom_data)
 
